@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true, // Позволяет импортировать JSON файлы как модули
+    "noImplicitReturns": true, // Ошибка если не все пути функции возвращают значение
+    "noUnusedLocals": true, // Ошибка на неиспользуемые локальные переменные
+    "noUnusedParameters": true // Ошибка на неиспользуемые параметры функций
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

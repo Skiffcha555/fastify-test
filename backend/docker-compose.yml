@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  database:
+    container_name: graphql-chat-database
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "Parole777"
+    ports:
+      - "5432:5432"
